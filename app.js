@@ -33,6 +33,7 @@ function populateAnalytics(arr, allCurrencyObjects) {
     $('#analytics').append(spanForCurrentAnalytics);
     $('#analytics').append(spanForCurrentAnalyticsTechSummary);
     $('#analytics').append('<hr>');
+    window.scrollTo(0,document.body.scrollHeight);
 }
 
 function getAnalytics(arr) {
